@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Toko Nathan</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Nathan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff5f5;
+        }
+        header {
+            background: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #b30000;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .logo {
+            width: 180px;
+            margin-bottom: 10px;
+        }
+        .wa-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: green;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-<header><img src="assets/logo.png" alt="Logo Toko" style="max-width: 150px;">
-    <img src="assets/logo.png" alt="Logo Toko" style="max-width:150px;">
+<header>
+    <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAGQCAYAAAB7VnZPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOzdW5KjOJaA4WvS///de1koRaSPoZTdYzxubwViozB204H/..."
+         alt="Logo Toko">
     <h1>Toko Nathan</h1>
 </header>
 
 <nav>
     <a href="#beranda">Beranda</a>
     <a href="#katalog">Katalog</a>
-    <a href="#kontak">Kontak</a>
     <a href="#testimoni">Testimoni</a>
     <a href="#tentang">Tentang Kami</a>
 </nav>
@@ -31,24 +73,22 @@
     <p>Produk-produk akan ditampilkan di sini.</p>
 </section>
 
-<section id="kontak">
-    <h2>Kontak WhatsApp</h2>
-    <a class="wa-btn" href="https://wa.me/6285167961940?text=Bang%20aku%20mau%20order%20yang%20ini">Chat via WhatsApp</a>
-</section>
-
 <section id="testimoni">
     <h2>Testimoni</h2>
-    <p>Nanti testimoni dimasukkan di sini.</p>
+    <p>Testimoni pelanggan segera hadir.</p>
 </section>
 
 <section id="tentang">
     <h2>Tentang Kami</h2>
-    <p>Toko Nathan adalah toko terpercaya dengan pelayanan terbaik.</p>
+    <p>Toko Nathan menyediakan berbagai layanan dan produk dengan kualitas terbaik.</p>
 </section>
 
-<footer>
-    <p>© 2025 Toko Nathan. All rights reserved.</p>
-</footer>
+<section>
+    <h2>Kontak WhatsApp</h2>
+    <a class="wa-btn" href="https://wa.me/6285167961940?text=Halo%20Bang%2C%20aku%20mau%20order%20yang%20ini" target="_blank">
+        Chat via WhatsApp
+    </a>
+</section>
 
 </body>
 </html>
